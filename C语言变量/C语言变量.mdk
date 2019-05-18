@@ -5,7 +5,10 @@ Logo          : False
 
 [TITLE]
 
-# 变量类型 
+# 变量
+## 什么是变量
+
+
 
 Madoko is a fast markdown processor for writing professional articles
 with a focus on simplicity and plain text readability.
