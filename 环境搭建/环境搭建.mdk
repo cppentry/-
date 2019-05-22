@@ -24,3 +24,40 @@ Logo          : True
   * ... 
 
 最快的方式是使用云计算VPS，这里选取腾讯云，按官网购买指引采购CVM即可[腾讯云](https://cloud.tencent.com/redirect.php?redirect=1042&cps_key=0855fd01dfabad11c5c9b5eadf567585&from=console)
+
+#Yum 工具
+yum（Yellow dog Updater，Modified）是所有版本的 CentOS 中使用的默认软件包管理器，用于从 CentOS 官方和第三方仓库中安装和更新软件包。
+yum 是在 Fedora、RedHat 和 CentOS 中基于 rpm 的软件包管理器，能够从指定的服务器自动下载 RPM 包并且安装、自动处理依赖性关系并一次安装所有依赖的软体包。
+
+使用该工具，可以实现开始安装。
+
+* 安装gcc
+  命令:yum install gcc or yum install gcc -y
+
+
+![微信图片_20190522180425]
+
+[微信图片_20190522180425]: images/-_20190522180425.png "微信图片_20190522180425" { width:auto; max-width:90% }
+
+
+* 检查
+  执行 gcc 
+  
+  提示gcc: no input files 标识安装正常
+
+
+#gcc编译
+接着我们试一下编译源代码。
+
+建立源代码文件 
+vi  hello.c
+
+```cpp
+#include <stdio.h>
+int main()
+{
+   // printf() 中字符串需要引号
+   printf("Hello, World!");
+   return 0;
+}
+```
