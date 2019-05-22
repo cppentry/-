@@ -61,3 +61,22 @@ int main()
    return 0;
 }
 ```
+
+保存后执行命令：gcc hello.c -o hello
+
+![1]
+  
+
+[1]: images/1.png "1" { width:auto; max-width:90% }
+
+
+执行 ./hello 即可输出
+
+#进一步学习
+  到此处，我们的环境已经可以使用gcc。
+  
+  为了能学习接下来的课程，朋友们需要熟悉linux的操作日常命令，可以搜索Linux常用shell命令学习。
+  
+  下一篇我们将会学习C语言基本的语法。
+  
+  
